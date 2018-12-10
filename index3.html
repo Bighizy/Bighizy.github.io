@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>2 + 2</title>
+</head>
+<body>
+<header>
+<h1> Сложение</h1>
+</header>
+<input type = "text" id = "txtA" value = "2" size = "2"/>
+  +
+  <input type = "text" id = "txtB" value = "2" size = "2"/>
+  <button type = "button" onclick = "Sum()"> =</button>
+  <input type = "text" id = "demo" value = "" size = "2"/><br />
+
+<script>
+  function Sum() {
+        var a;
+        var b;
+        a = parseInt(txtA.value);
+        b = parseInt(txtB.value);
+        var c;
+        c = a + b;
+        demo.value = c;
+    }
+</script>
+</body>
+</html>
